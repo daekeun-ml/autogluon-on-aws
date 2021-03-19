@@ -9,6 +9,8 @@ AutoGluon은 AWS에서 구축한 오픈소스 AutoML 툴킷으로 머신 러닝�
 
 핸즈온의 코드들은 순차적으로 수행하거나 모두 수행할 필요는 없지만 원활한 핸즈온을 위해 [1.tabular/01_binary_classification.ipynb](1.tabular/01_binary_classification.ipynb) 을 먼저 수행하시는 것을 권장드립니다. 
 
+### [0. Setup - Required](0.setup)
+
 ### [1. Tabular Data](1.tabular)
 
 ### [2. Natural Language Processing](2.nlp)
