@@ -139,7 +139,6 @@ Resources:
             source activate mxnet_p36
 
             pip install -U setuptools wheel numpy scipy
-            pip install "mxnet<2.0.0"
             pip install autogluon==0.1.0
 
             source deactivate
