@@ -10,7 +10,6 @@
 - <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in us-east-1 (N. Virginia)</a>
 
 
-
 CloudFormation 스택은 아래 리소스를 자동으로 생성합니다.
 - EC2 및 SageMaker 인스턴스에 퍼블릭 서브넷 + 보안 그룹이 있는 VPC
 - AWS 리소스에 액세스하는 데 필요한 IAM role
@@ -41,7 +40,7 @@ AWS CloudFormation 콘솔의 Quick create stack 페이지로 리디렉션된 후
     ![fig02](./imgs/fig2-02.png)
     **<center>Figure 2-2. Lifecycle configuration</center>**     
 
-1. Name 항목에 `ag-hol-lifecycle` 을 입력하고 <a href="TODO" download target="_blank">Lifecycle Configuration Script</a>를 클릭하여 다운로드합니다.<br>
+1. Name 항목에 `ag-hol-lifecycle` 을 입력하고 <a href="https://raw.githubusercontent.com/daekeun-ml/autogluon-on-aws/main/0.setup/ag-hol-lifecycle-sh" download target="_blank">Lifecycle Configuration Script</a>를 클릭하여 다운로드합니다.<br>
 다운로드가 완료되었으면 `ag-hol-lifecycle.sh` 의 내용을 복사하여 Script 항목에 붙여넣기한 후, 오른쪽 하단의 `Create configuration` 버튼을 클릭합니다. 
     ![fig03](./imgs/fig2-03.png)
     **<center>Figure 2-3. Create lifecycle configuration</center>**     
@@ -69,7 +68,5 @@ AWS CloudFormation 콘솔의 Quick create stack 페이지로 리디렉션된 후
 1. (Optional) 노트북 인스턴스가 생성되는 동안 Lifecycle configuration이 정상적으로 동작하는지 CloudWatch로 확인해 봅니다. 이 과정은 필수가 아니기에 선택적으로 수행하시면 됩니다.
 
 1. `Open Jupyter`나 `Open JupyterLab`을 클릭하여 방금 생성한 notebook instance의 개발 환경으로 접속합니다.
-
-
 
 수고하셨습니다. 
