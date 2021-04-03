@@ -5,11 +5,11 @@
 
 ## Option 1. AWS CloudFormation 환경 설정
 
-본 핸즈온랩에 필요한 AWS 리소스를 생성하기 위해 CloudFormation 스택이 제공됩니다. 아래 링크를 선택하면 스택이 시작될 AWS 콘솔의 CloudFormation 으로 자동 redirection 됩니다.</p>
+본 핸즈온랩에 필요한 AWS 리소스를 생성하기 위해 CloudFormation 스택이 제공됩니다. 아래 링크를 선택하면 스택이 시작될 AWS 콘솔의 CloudFormation 으로 자동 redirection 됩니다.
+- <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in ap-northeast-2 (Seoul)</a>
+- <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in us-east-1 (N. Virginia)</a>
 
-<ul>
-<li><a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in ap-northeast-2 (Seoul)</a></li>
-</ul>
+
 
 CloudFormation 스택은 아래 리소스를 자동으로 생성합니다.
 - EC2 및 SageMaker 인스턴스에 퍼블릭 서브넷 + 보안 그룹이 있는 VPC
@@ -21,6 +21,7 @@ AWS CloudFormation 콘솔의 Quick create stack 페이지로 리디렉션된 후
 - MLInstanceType: SageMaker notebook instance type을 선택합니다. 미리 설정된 <strong><em>`ml.m4.xlarge`</em></strong>를 사용하셔도 되지만, 만약 충분한 크레딧이 있다면 <strong><em>`ml.p2.xlarge`</em></strong>를 선택하십시오.
 - Capabilities 에서 <strong><em>`I acknowledge that AWS CloudFormation might create IAM resources`</em></strong>을 체크합니다.
 - 우측 하단의 `Create stack` 버튼을 누르고, 스택 생성이 완료될 때까지 기다립니다. 약 10분이 소요됩니다.
+  
 ![fig1-01](./imgs/fig1-01.png)
 **<center>Figure 1-1. Create an CloudFormation stack</center>**     
 

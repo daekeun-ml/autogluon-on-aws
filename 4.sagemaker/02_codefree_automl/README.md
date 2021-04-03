@@ -2,6 +2,10 @@
 # AutoML with AutoGluon, Amazon SageMaker, and AWS Lambda
 본 핸즈온은 약 30-40분이 소요됩니다.
 
+(Optional) 타이타닉 샘플 데이터셋 다운로드
+- <a href="https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/raw/titanic/titanic_train.csv">Training Data</a>
+- <a href="https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/raw/titanic/titanic_test.csv">Test Data</a>
+
 ## Code
 - `autogluon-tab-with-test.py`: 훈련 데이터를 Amazon S3에 업로드할 때 AWS Lambda 함수가 자동으로 시작되는 SageMaker Training job에 의해 실행되는 스크립트로, 파이프라인 사용을 위해 `sourcedir.tar.gz`에 미리 패키징되어 있습니다. 이 스크립트를 수정하여 자체 모델 훈련 코드로 파이프라인을 재사용할 수 있습니다.
 - `CodeFreeAutoML-hol.yaml`은 파이프라인을 배포하는 데 사용하는 AWS CloudFormation 템플릿입니다.
