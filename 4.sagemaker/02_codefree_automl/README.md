@@ -84,7 +84,7 @@ Code-free AutoML 파이프라인은 AutoGluon이 모델을 빌드하는 데 사�
 ![fig10](./imgs/fig10.png)
 **<center>Figure 10. Select Training job</center>** 
 
-1. 훈련 내역을 스크롤한 다음 
+1. 훈련 내역을 스크롤한 다음 Output 항목의 S3 model artifact 링크를 믈릭합니다. 참고로 SageMaker 훈련 인스턴스의 `/opt/ml/model` 폴더에 저장된 모델 파라메터들은 `model.tar.gz`로 자동으로 압축되어 S3 모델 경로로 자동으로 전송됩니다.
 ![fig11](./imgs/fig11.png)
 **<center>Figure 11. Select Training job</center>** 
 
