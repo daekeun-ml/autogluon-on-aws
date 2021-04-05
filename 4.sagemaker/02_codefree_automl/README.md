@@ -3,7 +3,7 @@
 
 반드시 머신 러닝 엔지니어/데이터 과학자/개발자만이 머신 러닝을 수행해야 할까요? 그렇지 않습니다. Amazon SageMaker AWS Lambda, 그리고 AutoGluon을 사용하면 사전 코딩이나 데이터 과학 전문 지식 없이도 데이터를 기반으로 예측을 수행하려는 모든 분들이 머신 러닝을 수행할 수 있습니다.
 
-본 핸즈온에서는 AWS CloudFormation으로 아래 Figure와 같은 code-free 머신 러닝 파이프라인을 직접 만들어 봅니다. 실습 시간은 약 **`40분-50분`**이 소요됩니다.
+본 핸즈온에서는 AWS CloudFormation으로 아래 Figure와 같은 code-free 머신 러닝 파이프라인을 직접 만들어 봅니다. 실습 시간은 약 **40분-50분**이 소요됩니다.
 
 ![fig01](./imgs/fig_architecture.png)
 **<center>Figure. Code-free AutoML Architecture</center>** 
