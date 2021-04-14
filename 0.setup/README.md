@@ -6,8 +6,8 @@
 ## Option 1. AWS CloudFormation 환경 설정
 
 본 핸즈온랩에 필요한 AWS 리소스를 생성하기 위해 CloudFormation 스택이 제공됩니다. 아래 링크를 선택하면 스택이 시작될 AWS 콘솔의 CloudFormation 으로 자동 redirection 됩니다.
-- <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in ap-northeast-2 (Seoul)</a>
-- <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/autogluon-hol-cf.yaml">Launch CloudFormation stack in us-east-1 (N. Virginia)</a>
+- <a href="https://console.aws.amazon.com/cloudformation/home?region=ap-northeast-2#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/ag-hol-cloudformation.yaml">Launch CloudFormation stack in ap-northeast-2 (Seoul)</a>
+- <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=AIMLWorkshop&amp;templateURL=https://daekeun-workshop-public-material.s3.ap-northeast-2.amazonaws.com/cloudformation/ag-hol-cloudformation.yaml">Launch CloudFormation stack in us-east-1 (N. Virginia)</a>
 
 
 CloudFormation 스택은 아래 리소스를 자동으로 생성합니다.
